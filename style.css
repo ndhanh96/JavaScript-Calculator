@@ -1,0 +1,118 @@
+@font-face {
+   font-family: "digital";
+   src: url('https://crossorigin.me/http://ff.cdn.1001fonts.net/d/i/digital-7.regular.ttf');
+}
+
+body {
+   background-color: #b3ffb3;
+}
+
+h1 {
+   font-family: 'digital', sans-serif;
+   position: absolute;
+   margin-top: 0px;
+   top: 0px;
+   right: 1px;
+}
+
+h4 {
+   font-family: 'digital', sans-serif;
+   position: absolute;
+   right: 1px;
+   bottom: 0px;
+}
+
+#mainCal {
+
+   margin: auto;
+   margin-top: 10%;
+   text-align: center;
+   /*width: 20%;*/
+   width: 300px;
+   min-height: 450px;
+   border: 2px solid white;
+   border-radius: 10px;
+   background-color: white;
+}
+
+#displayScreen {
+   position: relative;
+   margin: auto;
+   width: 245px;
+   height: 70px;
+   border-radius: 5px;
+   background-color: #e1eaea;
+}
+
+#numberButton {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 25px;
+   width: 245px;
+   height: 270px;
+   /*background-color: #bfbfbf;*/
+   position:relative;
+}
+
+#row1 {
+   display: inline-block;
+   margin-right: 15px;
+   width: 50px;
+   height: 215px;
+   /*background-color: #ffffcc;*/
+}
+#row2 {
+   display: inline-block;
+   /*margin-left: 0px;*/
+   margin-right: 15px;
+   width: 50px;
+   height: 215px;
+   /*background-color: #ffffcc;*/
+}
+
+#row3 {
+   display: inline-block;
+   /*margin-left: 0px;*/
+   /*margin-right: 15px;*/
+   width: 50px;
+   height: 215px;
+   /*background-color: #ffffcc;*/
+}
+
+#row4 {
+   display: inline-block;
+   /*margin-right: 0px;*/
+   width: 50px;
+   height: 270px;
+   /*background-color: #ffffcc;*/
+}
+
+#row5 {
+   width: 180px;
+   height: 50px;
+   margin-top: 0px;
+   position:absolute;
+   /*left:0px;*/
+   bottom:0px;
+   /*background-color: #ffffcc;*/
+}
+
+#numberzero {
+   width: 115px;
+   margin-right: 15px;
+}
+
+#numberequal {
+   height: 105px;
+}
+
+.btn-lg {
+   outline: none !important;
+   padding: 0px;
+   width: 50px;
+   height: 50px;
+   margin-bottom: 5px;
+   background-color: #f2f2f2 !important;
+   border: white !important;
+   color: black !important;
+}
